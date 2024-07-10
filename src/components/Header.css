@@ -1,0 +1,9 @@
+.header{
+    display: flex;
+    color: darkred;
+    font-size: 35px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 600;
+    justify-content: center;
+}

@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    to bottom left,
+    #e6e6fa 0.3%,
+    #ff6b6b 20%,
+    #9370db 60%
+  );
+}
+
+.title {
+  top: 150px;
+  margin-left: 55%;
+  transform: translateX(-50%);
+  font-size: 3em;
+  display: flex;
+  margin-bottom: 10px;
+  gap: 20px;
+  color: white;
+}
+.heading {
+  font-size: 20px;
+  margin-top: 10px !important;
+  margin-bottom: 10px;
+  font-style: italic;
+  background: linear-gradient(to left, #e6e6fa 30%, #ff6b6b 80%, #9370db);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.BTN {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  background: linear-gradient(to left, #ed7863, #c13a3a 80%);
+  color: white;
+}
+
+.text {
+  position: absolute;
+  top: 60%;
+  left: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  padding: 20px;
+  font-style: italic;
+}
+.texts {
+  font-size: 45px;
+  background: linear-gradient(to bottom, #ffffff 70%, #fcdee3 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.textsi {
+  font-size: 45px;
+  background: linear-gradient(to bottom, #fdbbbe 40%, #fdaeb0 40%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.textse {
+  font-size: 45px;
+  background: linear-gradient(to bottom, #fe8f90, #ff7c7c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.start {
+  width: 300px;
+  height: 40px;
+  border-radius: 30px;
+  background: linear-gradient(to left, #ed7863, #c13a3a 80%);
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-size: 19px;
+  margin-top: 25%;
+  border: none;
+}
+.skip {
+  margin-top: 50px;
+  background: none;
+  border: none;
+  font-size: 30px;
+  font-style: italic;
+  background: linear-gradient(to bottom, #fefefe, #948383);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  margin-right: 20px;
+}
